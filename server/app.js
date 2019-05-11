@@ -3,12 +3,12 @@ const morgan = require('morgan');
 const router = require('./router');
 const mongoose = require('mongoose');
 
-//App Set Up 
+//app set up 
 const app = express(); 
 app.use(morgan('combined')); 
 app.use(express.json());
 
-//routes
+//routes set up
 router(app);
 
 //mongo set up
@@ -18,7 +18,7 @@ db.once('open', () => {
   console.log('db is open')
 }); 
 
-//Server Set up
+//server set up
 const port = process.env.PORT || 4000; 
 app.listen(port, () => {
     console.log(`listening to port ${port}`);
