@@ -1,12 +1,5 @@
-## React with Redux Experiment 
-This is primary react with redux experiment that uses various redux patterns as well as
-explores middleware syntax for redux. There is a bit of backend written in node for 
-auth purposes. Navigate to server dir to explore packages installed for the backend 
-It uses passport's local strategy along with MongoDB. For MongoDB set up, I used MongoDB's Atlas Cloud service.  
-
-## Server
-Navidate to server dir to start a server. Type "npm run dev" to start a local server on your
-machine with port of 4000
+## Description 
+This is primary react with redux experiment that explores testing react with jest and anzyme. It also explores various redux patterns as well as wierd middleware syntax. 
 
 ## Available Scripts for React 
 
